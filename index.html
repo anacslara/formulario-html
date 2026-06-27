@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+<div class="contem">
+
+    <div id="div1">
+        <img src="imagem/undraw_forms_re_pkrt.svg" alt="" height="500px">
+    </div>
+
+    <div id="div2">
+        <form>
+            <h1>Cadastra-se</h1>
+            <br>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" placeholder="Digite seu nome" required>
+            <br><br>
+            <label for="numero">Número:</label>
+            <input id="numero" type="tell" placeholder="(xx) xxxx-xxxx" required>
+            <br><br>
+            <label for="nascimento">Nascimento:</label>
+            <input id="nascimento" type="date" placeholder="dd/mm/aaaa" required>
+            <br><br>
+            <select name="sexo">
+                <option selected disabled>sexo</option>
+                <option value="feminino">feminino</option>
+                <option value="masculino">masculino</option>
+                <option value="nao declarado">não declarar</option>
+            </select>
+            <br><br>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Digite seu email" required>
+            <br><br>
+            <label for="senha">senha:</label>
+            <input type="password" placeholder="Digite sua senha" required>
+            <br><br>
+            <input id="criar" type="submit" value="Confirmar">
+            <p id="link">Já possui uma conta login? <a href="entrar.html">entre</a></p>
+        </form>
+    </div>
+        
+</div>
+
+</body>
+
+</html>

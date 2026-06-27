@@ -1,0 +1,92 @@
+body{
+    background-color: prgb(53, 60, 79);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    display: block;
+    background-color: antiquewhite;
+    border: 5px solid antiquewhite;
+    align-items: end;
+}
+.contem{
+    background-color: rgb(42, 45, 47);
+    width: 90%;
+    height: 90%;
+    display:flex;
+    box-shadow: 5px 5px 10px rgba(72, 72, 241, 0.504);
+    border-right: 5px solid rgb(42, 45, 47);
+    border-radius: 10px;
+}
+#div1{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(52, 113, 142);
+    transform: scaleX(-1);
+    border-right: 5px solid rgb(52, 113, 142);
+    border-radius: 10px;
+}
+#div2{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 45, 47);
+    padding: 5px;
+    color: white;
+    border-right: 5px solid gb(42, 45, 47);
+    border-radius: 10px;
+}
+label{
+    font-size: medium;
+}
+input{
+    border: none;
+    padding: 5px;
+    border: 2px solid rgba(84, 86, 88, 0);
+    border-radius: 15px;
+    background-color: rgba(84, 86, 88, 0.793);
+    color: white;
+}
+select{
+    border: 2px solid rgba(84, 86, 88, 0);
+    border-radius: 10px;
+    background-color: rgba(84, 86, 88, 0.793);
+    padding-left: 5px;
+    color: white;
+}
+input:hover{
+    border: 2px solid blue;
+}
+#criar{
+    margin-left: 25px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    background-color: blue;
+}
+#criar:hover{
+    background-color: rgb(63, 63, 246);
+    border: 2px solid rgb(63, 63, 246);
+}
+#link{
+    font-size: small;
+    margin-left: 20px;
+}
+a{
+    color: rgb(9, 111, 253);
+    font-size: 15px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
